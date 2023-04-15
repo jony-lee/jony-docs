@@ -27,13 +27,12 @@ jobs:
 
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
-      - name: Deploy to GitHub Pages
-        run: |
-          git config --global user.email "jonylee.cn@gmail.com"
-          git config --global user.name "GitHub Actions"
-          cd docs/.vuepress/dist
-          git init
-          git remote add deploy "https://${{ secrets.GITHUB_TOKEN }}@github.com/jony-lee/jonylee.github.io.git"
-          git add .
-          git commit -m "Deploy website"
-          git push --set-upstream deploy master --force
+      - name: Publish
+        uses: cpina/github-action-push-to-another-repository@v1.3
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'docs/.vuepress/dist'
+          destination-github-username: 'jony-lee'
+          destination-repository-name: 'jony-lee.github.io'
+          user-email: jonylee.cn@google.com
