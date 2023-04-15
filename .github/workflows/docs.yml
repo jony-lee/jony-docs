@@ -20,7 +20,7 @@ jobs:
           node-version: '14.x'
 
       - name: Setup yarn
-      - uses: yarnpkg/setup-yarn@v1
+        uses: yarnpkg/setup-yarn@v1
         with: 
           yarn-version: latest
 
