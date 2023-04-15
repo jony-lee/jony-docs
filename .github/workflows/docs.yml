@@ -21,7 +21,7 @@ jobs:
           cache: npm
 
       - name: Install
-        run: npm run doc:build
+        run: npm run docs:build
 
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
