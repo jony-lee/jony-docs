@@ -33,8 +33,7 @@ jobs:
           git config --global user.name "GitHub Actions"
           cd docs/.vuepress/dist
           git init
-          export secrets.DEPLOY_TOKEN="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"
-          git remote add deploy "https://${{ secrets.DEPLOY_TOKEN }}@github.com/jony-lee/jonylee.github.io.git"
+          git remote add deploy "https://${{ secrets.GITHUB_TOKEN }}@github.com/jony-lee/jonylee.github.io.git"
           git add .
           git commit -m "Deploy website"
           git push --set-upstream deploy master --force
