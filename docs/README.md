@@ -2,60 +2,18 @@
 lang: zh-CN
 title: 我是jony!
 description: 这是一个随便起的描述
+home: true
+heroImage: /images/package.png
+heroText: 我的主页
+tagline: 我的主页
+actionText: 高频前端面试题
+actionLink: https://www.yuque.com
+features: 
+- title: 简洁至上 
+  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。 
+- title: Vue驱动 
+  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。 
+- title: 高性能 
+  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
+  footer: 前端投资小达人的个人博客
 ---
-
-
-# Markdown 语法测试文档
-
-## 标题
-
-# 一级标题
-## 二级标题
-### 三级标题
-#### 四级标题
-##### 五级标题
-###### 六级标题
-
-## 列表
-
-### 无序列表
-
-- 项目1
-- 项目2
-- 项目3
-
-### 有序列表
-
-1. 项目1
-2. 项目2
-3. 项目3
-
-## 引用
-
-> 这是一个引用示例。
-
-## 代码块
-
-```python
-def hello_world():
-    print("Hello, World!")
-```
-
-## 链接与图片
-
-![我的图片](/images/package.png)
-
-[Google](https://www.google.com/)
-
-![Markdown Logo](https://markdown-here.com/img/icon256.png)
-
-## 粗体与斜体
-
-**粗体** 和 *斜体* 示例。
-
-## 表格
-
-| 姓名 | 年龄 | 性别 |
-|------|------|------|
-| 小明 | 18   | 男   |
-| 小红 | 20   | 女   |
