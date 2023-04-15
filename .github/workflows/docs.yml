@@ -36,4 +36,4 @@ jobs:
           git remote add deploy "https://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@github.com/jony-lee/jonylee.github.io.git"
           git add .
           git commit -m "Deploy website"
-          git push --force
+          git push --set-upstream deploy master --force
