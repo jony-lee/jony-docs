@@ -72,7 +72,9 @@ export default defineUserConfig({
     }),
     description: '这是我的第一个 VuePress 站点',
     plugins: [
-        searchPlugin({}), 
+        searchPlugin({
+          hotKeys: ['s', '/', 'ctrl+f', 'command+f'],
+        }), 
         registerComponentsPlugin({}),
     ],
     head: [
