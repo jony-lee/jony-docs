@@ -15,7 +15,7 @@
 <img src="/images/person.jpg" height="300" />
 
 ## 程序员鱼皮的《编程导航》
-<img src="/images/编程导航.JPG" height="300" />
+<img src="/images/编程导航.jpg" height="300" />
 
 编程导航，星主网络ID是：程序员鱼皮，前腾讯程序员，现在已经离职创业了
 
@@ -39,7 +39,7 @@
 
 ## 亦仁的《生财有术》
 
-<img src="/images/生财有术.JPG" height="300" />
+<img src="/images/生财有术.jpg" height="300" />
 
 介绍后面的星球之前，先重点讲一下这个吧，因为这个星球是目前我进入的内容价值最高且最贵的一个星球，也是知识星球付费榜长期霸榜的一个社群
 
@@ -74,7 +74,7 @@
 
 ## 临公子的《临公子读者圈》
 
-<img src="/images/临公子读者圈.JPG" height="300" />
+<img src="/images/临公子读者圈.jpg" height="300" />
 
 临公子读者圈，这是一个主打付费写作教学的社群，里面有很多打卡写作的小伙伴
 
@@ -90,7 +90,7 @@
 
 ## 阿猫的《和阿猫一起成长》
 
-<img src="/images/和阿猫一起成长.JPG" height="300" />
+<img src="/images/和阿猫一起成长.jpg" height="300" />
 
 和阿猫一起成长，这也是一个主打付费写作和知识类的社群，此前有 100 天持续打卡返现
 
@@ -104,7 +104,7 @@
 
 ## 花爷的《愚公掘金》
 
-<img src="/images/愚公掘金.JPG" height="300" />
+<img src="/images/愚公掘金.jpg" height="300" />
 
 从花爷的直播能看出来，这个人的逻辑能力和商业能力是很强的
 
@@ -116,19 +116,19 @@
 
 ## 鱼塘主的《鱼塘主升级圈》
 
-<img src="/images/鱼塘主升级圈.JPG" height="300" />
+<img src="/images/鱼塘主升级圈.jpg" height="300" />
 
 介绍：TODO
 
 ## 鱼塘主+阿猫的《成长觉醒笔记》
 
-<img src="/images/成长觉醒笔记.JPG" height="300" />
+<img src="/images/成长觉醒笔记.jpg" height="300" />
 
 介绍：TODO
 
 
 ## carl 的《代码随想录》
 
-<img src="/images/代码随想录.JPG" height="300" />
+<img src="/images/代码随想录.jpg" height="300" />
 
 介绍：TODO
