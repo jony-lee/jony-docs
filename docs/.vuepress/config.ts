@@ -4,38 +4,69 @@ import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { hopeTheme } from "vuepress-theme-hope";    
 export default defineUserConfig({
     lang: 'zh-CN',
-    title: '你好， jony ！',
+    title: '阿冲成长笔记',
 
     theme:hopeTheme({
         displayFooter: true,
         pure:true,
         logo: "/images/logo.png",
         navbar: [      
-            {
-            text: "快速开始",
-            link: "/home.md",
-            icon: "lightbulb",
-            // 仅在 `/zh/guide/` 激活
-            // activeMatch: "^/python/$",
-          },
           {
-            text: "golang",
+            text: "Golang笔记",
             link: "/golang",
             icon: "lightbulb",
-            // 仅在 `/zh/guide/` 激活
-            // activeMatch: "^/golang/$",
           },
           {
-            text: "markdown",
+            text: "Python笔记",
+            link: "/python",
+            icon: "lightbulb",
+          },
+          {
+            text: "Markdown笔记",
             link: "/markdown",
             icon: "lightbulb",
+          },
+          {
+            text: "LeetCode心法",
+            link: "/leetcode",
+            icon: "lightbulb",
+          },
+          {
+            text: "阿冲其他",
+            icon: "lightbulb",
+            children: [
+              {
+                text: "关于阿冲",  
+                link: "/other/aboutme",
+                icon: "lightbulb",
+                // 仅在 `/zh/guide/` 激活
+                // activeMatch: "^/python/$",
+              },
+              {
+                text: "阿冲写作",  
+                link: "/blog",
+                icon: "lightbulb",
+                // 仅在 `/zh/guide/` 激活
+                // activeMatch: "^/python/$",
+              },
+              {
+                text: "常用网站收录",  
+                link: "/other/website",
+                icon: "lightbulb",
+                // 仅在 `/zh/guide/` 激活
+                // activeMatch: "^/python/$",
+              },
+            ],
             // 仅在 `/zh/guide/` 激活
             // activeMatch: "^/golang/$",
           },
+
         ],
         sidebar:{
             "/golang/":"structure",
-            "/markdown/":"structure"
+            "/markdown/":"structure",
+            "/blog/":"structure",
+            "/leetcode/":"structure",
         },
         sidebarSorter: "title",
     }),
