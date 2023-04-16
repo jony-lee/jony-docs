@@ -25,6 +25,7 @@ jobs:
           npm install
           npm run build
           mv docs/.vuepress/public/ads.txt docs/.vuepress/dist/
+          echo "jonylee.cn" > CNAME
 
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
