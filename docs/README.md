@@ -3,11 +3,11 @@ lang: zh-CN
 title: 我是jony!
 description: 这是一个随便起的描述
 home: true
-heroImage: /images/package.png
-heroText: 我的主页
+heroImage: /images/logo.png
+heroText: jony 的博客
 tagline: 我的主页
-actionText: 高频前端面试题
-actionLink: https://www.yuque.com
+# actionText: 高频前端面试题
+# actionLink: https://www.yuque.com
 features: 
 - title: 简洁至上 
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。 
