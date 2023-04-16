@@ -10,7 +10,12 @@ export default defineUserConfig({
         displayFooter: true,
         pure:true,
         logo: "/images/logo.png",
-        navbar: [      
+        navbar: [    
+          {
+            text: "关注我",
+            link: "/other/aboutme",
+            icon: "lightbulb",
+          },  
           {
             text: "Golang笔记",
             link: "/golang",
@@ -24,6 +29,11 @@ export default defineUserConfig({
           {
             text: "Markdown笔记",
             link: "/markdown",
+            icon: "lightbulb",
+          },
+          {
+            text: "项目笔记",
+            link: "/project_note",
             icon: "lightbulb",
           },
           {
@@ -65,15 +75,17 @@ export default defineUserConfig({
         sidebar:{
             "/golang/":"structure",
             "/markdown/":"structure",
+            "/python/":"structure",
             "/blog/":"structure",
             "/leetcode/":"structure",
+            "/project_note/":"structure",
         },
         sidebarSorter: "title",
     }),
     description: '这是我的第一个 VuePress 站点',
     plugins: [
         searchPlugin({
-          hotKeys: ['s', '/', 'ctrl+f', 'command+f'],
+          locales: {}
         }), 
         registerComponentsPlugin({}),
     ],
