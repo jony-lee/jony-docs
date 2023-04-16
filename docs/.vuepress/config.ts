@@ -42,16 +42,16 @@ export default defineUserConfig({
             icon: "lightbulb",
           },
           {
+            text: "副业社群",  
+            link: "/other/sideline",
+            icon: "lightbulb",
+            // 仅在 `/zh/guide/` 激活
+            // activeMatch: "^/python/$",
+          },
+          {
             text: "阿冲其他",
             icon: "lightbulb",
             children: [
-              {
-                text: "关于阿冲",  
-                link: "/other/aboutme",
-                icon: "lightbulb",
-                // 仅在 `/zh/guide/` 激活
-                // activeMatch: "^/python/$",
-              },
               {
                 text: "阿冲写作",  
                 link: "/blog",

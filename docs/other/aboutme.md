@@ -1,4 +1,4 @@
-# 关于阿冲
+# 关注阿冲
 
-## 加我好友,备注:站点
-![123](/images/person.jpg)
+## 加我好友
+<img src="/images/person.jpg" height="300" />
