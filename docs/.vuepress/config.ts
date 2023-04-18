@@ -66,6 +66,13 @@ export default defineUserConfig({
                 // 仅在 `/zh/guide/` 激活
                 // activeMatch: "^/python/$",
               },
+              {
+                text: "chatgpt使用",  
+                link: "/chagpt",
+                icon: "lightbulb",
+                // 仅在 `/zh/guide/` 激活
+                // activeMatch: "^/python/$",
+              },
             ],
             // 仅在 `/zh/guide/` 激活
             // activeMatch: "^/golang/$",
@@ -79,6 +86,7 @@ export default defineUserConfig({
             "/blog/":"structure",
             "/leetcode/":"structure",
             "/project_note/":"structure",
+            "chatgpt":"structure",
         },
         sidebarSorter: "title",
     }),
